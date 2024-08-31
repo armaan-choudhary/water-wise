@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
-import ComplaintForm from './components/ComplaintForm';
+import Home from './Home';
+import About from './About';
+import ComplaintForm from './ComplaintForm';
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/about">About/Contact</Link>
+              <Link to="/about-contact">About/Contact</Link>
             </li>
             <li>
               <Link to="/complaint-form">Complaint Form</Link>
@@ -23,9 +23,9 @@ const App = () => {
         </nav>
 
         <Routes>
-          <Route path="/" exact component={Home}/>
-          <Route path="/about-contact" component={About} />
-          <Route path="/complaint-form" component={ComplaintForm} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/complaint-form" element={<ComplaintForm />} />
         </Routes>
       </div>
     </Router>
