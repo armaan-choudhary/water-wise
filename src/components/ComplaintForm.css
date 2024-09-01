@@ -1,0 +1,86 @@
+h1 {
+   font-size: 2.5rem;
+   margin: 0 0 1rem 0;
+   padding-bottom: 0.5rem;
+   border-bottom: 3px solid #23278C;
+}
+
+.complaintFormWrapper {
+   padding: 0 5rem;
+   display: flex;
+   height: 80vh;
+   flex-direction: column;
+   align-items: left;
+}
+
+.inputFieldWrapper {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin-bottom: 0.5rem;
+   width: 35rem;
+}
+
+.inputFieldWrapper input {
+   min-height: 3rem;
+   resize: none;
+   border-radius: 0.7rem;
+   border: 2px solid #23278C;
+   text-align: center;
+   font-size: 1.2rem;
+}
+
+.inputFieldWrapper label {
+   font-size: 1.1rem;
+   font-weight: 600;
+   margin-left: 1rem;
+   margin-bottom: 0.2rem;
+   color: #23278C;
+}
+
+button {
+   width: 35rem;
+   height: 3rem;
+   margin: 0.5rem 0;
+   border-radius: 0.7rem;
+   border: none;
+   font-size: 1.2rem;
+   color: #fff;
+   font-weight: 600;
+   background-color: #23278C;
+   text-transform: uppercase;
+}
+
+button:active {
+   background-color: #3439d2;
+}
+
+.required {
+   color: #c13434;
+}
+
+.wrapper {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.image {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.image img {
+   min-height: 35rem;
+}
+
+@media (max-width: 900px) {
+   .complaintFormWrapper {
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+   }
+   .image {
+      width: 100%;
+   }
+}

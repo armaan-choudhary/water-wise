@@ -1,0 +1,38 @@
+.mainContainer {
+   /* background-color: #33333310; */
+   padding: 0 1rem 0.7rem 1rem;
+}
+ul {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1rem 3.5rem 1rem 2.5rem;
+}
+li {
+   list-style: none;
+}
+.buttonLink {
+   /* border: 1px solid #111; */
+   padding: 0.5rem 2rem;
+   border-radius: 0.5rem;
+}
+a {
+   text-decoration: none;
+   font-size: 1.25rem;
+   color: #111;
+   font-weight: 500;
+}
+img {
+   height: 3rem;
+   margin-top: 0.5rem;
+}
+.sideLinkContainer {
+   display: flex;
+   gap: 1rem;
+}
+.sideLinkContainer li a {
+   padding-bottom: 0.5rem;
+   font-weight: 600;
+   text-transform: uppercase;
+   border-bottom: 3px solid #23278C;
+}
